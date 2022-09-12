@@ -15,6 +15,9 @@ def load_data():
     y = 3 + 4 * x + 5 * x**2 + 6 * x**3
         
     return x, y
+
+def sayHello():
+	print("Hello this message is from github")
     
     
 def polyfit_autograd(x,y):
