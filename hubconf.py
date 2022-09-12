@@ -91,7 +91,7 @@ def get_model():
     return model
 
 
-def _train(dataloader, model, loss_fn=loss_fn, optimizer=optimizer):
+def _train(dataloader, model, loss_fn, optimizer):
     size = len(dataloader.dataset)
     model.train()
     for batch, (X, y) in enumerate(dataloader):
